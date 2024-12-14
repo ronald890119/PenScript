@@ -3,9 +3,9 @@ This repo contains some useful scripts while doing penetration testing.
 
 ## Script Usage
 ### add_host
-This script can add the IP and URL to /etc/hosts.
-Usage: ./add_host.sh [IP_ADDRESS] [URL].
-Example: ./add_host 10.10.10.10 example.xyz
+This script can add the IP and URL to /etc/hosts.\
+Usage: `./add_host.sh [IP_ADDRESS] [URL]`.\
+Example: `./add_host 10.10.10.10 example.xyz`
 
 ## Useful Notes
 ### Default 404 pages
