@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # This script can add the IP and URL to /etc/hosts
 
 IP=$1
