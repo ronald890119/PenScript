@@ -1,6 +1,6 @@
 # PenScript
 
-This repo contains some useful scripts while doing penetration testing. The scripts can only work properly on Kali Linux due to path setting.
+This repo contains some useful scripts while doing penetration testing. The scripts can only work properly on Kali Linux due to path setting. Feel free to change the path based on your own condition.
 
   
 
@@ -8,9 +8,9 @@ This repo contains some useful scripts while doing penetration testing. The scri
 
 ### add_host
 
-This script can add the IP and URL to /etc/hosts.\
+This script can add the IP and URL to /etc/hosts.
 
-Usage: `./add_host.sh [IP_ADDRESS] [URL]`.\
+Usage: `./add_host.sh [IP_ADDRESS] [URL]`.
 
 Example: `./add_host 10.10.10.10 example.xyz`
 
@@ -18,9 +18,9 @@ Example: `./add_host 10.10.10.10 example.xyz`
 
 ### mygo
 
-This script uses gobuster command to find subdirectory of the site. There are two modes available which are directory searching and virtual host searching.\
+This script uses gobuster command to find subdirectory of the site. There are two modes available which are directory searching and virtual host searching.
 
-Usage: `./mygo_dir.sh [URL]` or `./mygo_vhost.sh [URL]`.\
+Usage: `./mygo_dir.sh [URL]` or `./mygo_vhost.sh [URL]`.
 
 Example: `./mygo_dir.sh http://example.xyz`
 
